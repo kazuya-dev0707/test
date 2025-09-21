@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+// test commit
 @Composable
 fun Greeting(modifier: Modifier = Modifier) {
     var isHello by remember { mutableStateOf(true) }
