@@ -218,6 +218,7 @@ private fun HighlightRow(highlights: List<String>, modifier: Modifier = Modifier
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun SkillsSection(skills: List<String>, modifier: Modifier = Modifier) {
     Column(
